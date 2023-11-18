@@ -1,0 +1,52 @@
+[
+    { 
+        "firstName": "Tony", 
+        "lastName": "Stark",
+        "heroName": "Iron Man",
+        "image": "img/ironman.webp", 
+        "bio": "Iron Man is a superhero appearing in American comic books published by Marvel Comics. Co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby, the character first appeared in Tales of Suspense #39 in 1963, and received his own title with Iron Man #1 in 1968."
+    },
+    {
+        "firstName": "Peter", 
+        "lastName": "Parker",
+        "heroName": "Spider Man",
+        "image": "img/spiderman.png", 
+        "bio": "Spider-Man is a superhero appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing Fantasy #15 (August 1962) in the Silver Age of Comic Books."
+    },
+    {
+        "firstName": "Steven", 
+        "lastName": "Rogers",
+        "heroName": "Captain America",
+        "image": "img/captainamerica.jpg", 
+        "bio": "Captain America is a superhero created by Joe Simon and Jack Kirby who appears in American comic books published by Marvel Comics. The character first appeared in Captain America Comics #1, published on December 20, 1940 by Timely Comics, a corporate predecessor to Marvel."
+    },
+    {
+        "firstName": "Bruce", 
+        "lastName": "Banner",
+        "heroName": "Hulk",
+        "image": "img/hulk.png", 
+        "bio": "The Hulk is a superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in the debut issue of The Incredible Hulk (May 1962). "
+    },
+    {
+        "firstName": "Thor", 
+        "lastName": "Odinson",
+        "heroName": "Thor",
+        "image": "img/thor.png", 
+        "bio": "Thor Odinson is a character appearing in American comic books published by Marvel Comics. Created by artist Jack Kirby, writer Stan Lee, and scripter Larry Lieber, the character first appeared in Journey into Mystery #83 (August 1962), debuting in the Silver Age of Comic Books."
+    },
+    {
+        "firstName": "T", 
+        "lastName": "Challa",
+        "heroName": "Black Panther",
+        "image": "img/blackpanther.jpg", 
+        "bio": "Black Panther is a character appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist-coplotter Jack Kirby, the character first appeared in Fantastic Four #52 (July 1966) in the Silver Age of Comic Books."
+    },
+    {
+        "firstName": "Samuel", 
+        "lastName": "Wilson",
+        "heroName": "Falcon",
+        "image": "img/falcon.jpg", 
+        "bio": "The Falcon (Samuel Thomas Sam Wilson) is a superhero appearing in American comic books published by Marvel Comics. The character was introduced by writer-editor Stan Lee and artist Gene Colan in Captain America #117 (Sept. 1969), and was the first Black American superhero in mainstream comic books.."
+    }
+]
+

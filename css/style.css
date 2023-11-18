@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.search-container {
+    margin: 20px;
+}
+
+#characters-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+}
+
+#characters-table th, #characters-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+#characters-table .highlighted {
+    background-color: lightgreen;
+}
+
+#characters-table img {
+    width: 100px;
+}
+thead>tr>th{
+    background-color: blue;
+    color: white;
+}
+.filter-buttons {
+    margin: 20px;
+}
+
+.filter-buttons button {
+    margin-right: 10px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+input{
+    height: 35px;
+}
