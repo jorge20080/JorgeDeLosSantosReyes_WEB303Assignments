@@ -22,7 +22,7 @@ $(document).ready(function () {
         const searchTerm = $(this).val().toLowerCase();
 
         $('#characters-table tbody tr').each(function () {
-            const firstName = $(this).find('td:first-child').text().toLowerCase();
+            const firstName = $(this).find('td:nth-child(2)').text().toLowerCase();
             const containsSearchTerm = firstName.includes(searchTerm);
 
             if (searchTerm === '' || containsSearchTerm) {
@@ -41,7 +41,7 @@ $(document).ready(function () {
     });
     function filterTable(startLetter, endLetter) {
         $('#characters-table tbody tr').each(function () {
-            const lastName = $(this).find('td:nth-child(2)').text().toUpperCase();
+            const lastName = $(this).find('td:nth-child(3)').text().toUpperCase();
             const isInRange = lastName >= startLetter && lastName <= endLetter;
 
             if (isInRange) {
@@ -55,12 +55,12 @@ $(document).ready(function () {
     }
     function updateFilterButtonCounts() {
         const countAtoM = $('#characters-table tbody tr:visible').filter(function () {
-            const lastName = $(this).find('td:nth-child(2)').text().toUpperCase();
+            const lastName = $(this).find('td:nth-child(3)').text().toUpperCase();
             return lastName >= 'A' && lastName <= 'M';
         }).length;
 
         const countNtoZ = $('#characters-table tbody tr:visible').filter(function () {
-            const lastName = $(this).find('td:nth-child(2)').text().toUpperCase();
+            const lastName = $(this).find('td:nth-child(3)').text().toUpperCase();
             return lastName >= 'N' && lastName <= 'Z';
         }).length;
 
